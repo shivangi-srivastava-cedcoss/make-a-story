@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form A Story</title>
+	<link rel="stylesheet" type="text/css" href="task10.css">
+</head>
+<body class="bgcolor text-center">
+	<div class="content-div">
+		<img src="form-a-story.png" alt="logo" class="logo-height">
+	</div>
+	<div class="form-data content-div">
+		<h1>Complete the Form -<br> Complete the Story</h1><hr>
+		<form method="post" action="story.html">
+			<div>
+				<label>Animal:</label>
+				<input type="text" id="txtAnimal" class="input-text" placeholder="Tiger" required>
+			</div>
+			<div>
+				<label>Another Animal:</label>
+				<input type="text" id="txtAnotherAnimal" class="input-text" placeholder="Lion" required>
+			</div>
+			<div>
+				<label>One More Animal:</label>
+				<input type="text" id="txtMoreAnimal" class="input-text" placeholder="Dog" required>
+			</div>
+			<div>
+				<label>Adjective (Past Tense):</label>
+				<input type="text" id="txtAdjective" class="input-text" placeholder="Alarmed" required>
+			</div>
+			<div>
+				<label>Verb (ends in -ing):</label>
+				<input type="text" id="txtVerb" class="input-text" placeholder="Running" required>
+			</div>
+			<div>
+				<label>Number:</label>
+				<input type="number" id="txtNumber" class="input-text" placeholder="2" required>
+			</div>
+			<div>
+				<label>Yes or No: </label>
+				<input type="radio" name="yn" id="yes" value="Yes" required/><label>Yes</label>
+				<input type="radio" name="yn" value="No" id="No" /><label>No</label>
+			</div>
+			<div>
+				<label>Relative Speed (ends in -er):</label>
+				<select class="input-text" name="ddlspeed" >
+					
+					<option value="Faster">Faster</option>
+					<option value="Quicker">Quicker</option>
+				</select>
+			</div>
+			<div>
+				<label>Motivational Quote:</label>
+				<input type="text" id="txtQuote" class="input-text" placeholder="Example" required>
+			</div>
+			<div>Meaningful Message</div>
+			<div>
+				<textarea class="input-text input-textarea" id="txtMsg" rows="5" placeholder="Message...." required></textarea>
+			</div>
+			<div>
+				<input type="submit" name="Submit" value="Form My Story !" onClick="Sub()" class="btnSubmit">
+			</div>
+		</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

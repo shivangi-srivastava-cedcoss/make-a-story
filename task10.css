@@ -1,0 +1,81 @@
+.bgcolor
+{
+	background-color: #ffb71e;
+}
+.text-center
+{
+	text-align: center;
+}
+
+.content-div
+{
+	width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 0% 3% 0%;
+    background-color: white;
+    border-radius: 15px;
+}
+.logo-height
+{
+	height:100px;
+}
+hr
+{
+	margin-bottom: 3%;
+}
+.form-data
+{
+	margin-top:1%;
+	background-color:#fff0d0;
+	padding-top:1%;
+}
+.input-text
+{
+	border:1px solid #ccc;
+	height: 4vh;
+	border-radius: 6px;
+}
+.h1
+{
+	padding-bottom: 1%;
+}
+.form-data div
+{
+	padding-bottom: 1.5%;
+}
+.form-data label
+{
+	font-size: 19px;
+}
+.input-textarea
+{
+	width: 300px;
+	height: 20vh;
+}
+.btnSubmit
+{
+	font-size: 15px;
+}
+#story-div
+{
+	overflow-y: scroll;
+	padding: 4% 5%;
+	width: 52%;
+	height:338px;
+}
+#story-div label
+{
+	font-weight:bold;
+	text-decoration: underline;
+}
+#story-div p, label
+{
+	font-size: 19px;
+}
+#story-div h1, #story-div h1 label
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
